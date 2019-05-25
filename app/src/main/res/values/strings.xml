@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TebakGambar</string>
+    <string name="masukkan_jawaban">Masukkan jawaban</string>
+    <string name="cek">CEK</string>
+</resources>

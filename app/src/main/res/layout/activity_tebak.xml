@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#22ff"
+    android:padding="40dp"
+    android:orientation="vertical"
+    tools:context=".TebakActivity">
+    
+    <ImageView
+        android:id="@+id/imageView_tebak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/line"
+        android:padding="20dp"
+        android:background="@android:color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:gravity="bottom">
+        
+        <EditText
+            android:inputType="text"
+            android:id="@+id/editText_jawab"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:hint="@string/masukkan_jawaban"
+            android:background="@android:color/white"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/button_cek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cek"
+            android:textAllCaps="true"
+            android:layout_weight="3"
+            android:textColor="@color/colorPrimary"
+            android:background="@android:color/white"
+            android:layout_marginLeft="12dp"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
